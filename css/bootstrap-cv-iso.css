@@ -1,0 +1,529 @@
+.bootstrap-cv-iso {
+  @charset "UTF-8";
+  /*!
+ * Bootstrap v4.1.1 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+  @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+  /*!
+ * Pikaday
+ * Copyright © 2014 David Bushell | BSD & MIT license | http://dbushell.com/
+ */
+}
+.bootstrap-cv-iso :root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #0ea0ff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #6091ef;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Lato", sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.bootstrap-cv-iso *,
+.bootstrap-cv-iso :after,
+.bootstrap-cv-iso :before {
+  box-sizing: border-box;
+}
+.bootstrap-cv-iso html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+@-ms-viewport {
+  width: device-width;
+}
+.bootstrap-cv-iso section {
+  display: block;
+}
+.bootstrap-cv-iso body {
+  margin: 0;
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+.bootstrap-cv-iso h2,
+.bootstrap-cv-iso h3,
+.bootstrap-cv-iso h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.bootstrap-cv-iso p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.bootstrap-cv-iso ::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+.bootstrap-cv-iso h2,
+.bootstrap-cv-iso h3,
+.bootstrap-cv-iso h4 {
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+.bootstrap-cv-iso h2 {
+  font-size: 2rem;
+}
+.bootstrap-cv-iso h3 {
+  font-size: 1.75rem;
+}
+.bootstrap-cv-iso h4 {
+  font-size: 1.5rem;
+}
+.bootstrap-cv-iso .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .bootstrap-cv-iso .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .bootstrap-cv-iso .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .bootstrap-cv-iso .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .bootstrap-cv-iso .container {
+    max-width: 1140px;
+  }
+}
+.bootstrap-cv-iso .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.bootstrap-cv-iso .col-1,
+.bootstrap-cv-iso .col-6,
+.bootstrap-cv-iso .col-9,
+.bootstrap-cv-iso .col-md-6 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.bootstrap-cv-iso .col-1 {
+  -ms-flex: 0 0 8.33333%;
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%;
+}
+.bootstrap-cv-iso .col-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.bootstrap-cv-iso .col-9 {
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+@media (min-width: 768px) {
+  .bootstrap-cv-iso .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+.bootstrap-cv-iso .btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.bootstrap-cv-iso .btn:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn:not(:disabled):not(.disabled):active {
+  background-image: none;
+}
+.bootstrap-cv-iso .btn-primary:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-primary:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #0084da;
+  border-color: #007ccd;
+}
+.bootstrap-cv-iso .btn-primary:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(14, 160, 255, 0.5);
+}
+.bootstrap-cv-iso .btn-secondary:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-secondary:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+.bootstrap-cv-iso .btn-secondary:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-secondary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(109, 118, 126, 0.5);
+}
+.bootstrap-cv-iso .btn-success:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-success:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #1e7e34;
+  border-color: #1c7430;
+}
+.bootstrap-cv-iso .btn-success:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-success:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+.bootstrap-cv-iso .btn-info:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-info:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #3271ea;
+  border-color: #2669e9;
+}
+.bootstrap-cv-iso .btn-info:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-info:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(96, 145, 239, 0.5);
+}
+.bootstrap-cv-iso .btn-warning:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-warning:not(:disabled):not(.disabled):active {
+  color: #212529;
+  background-color: #d39e00;
+  border-color: #c69500;
+}
+.bootstrap-cv-iso .btn-warning:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-warning:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+}
+.bootstrap-cv-iso .btn-danger:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-danger:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #b21f2d;
+}
+.bootstrap-cv-iso .btn-danger:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-danger:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}
+.bootstrap-cv-iso .btn-light:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-light:not(:disabled):not(.disabled):active {
+  color: #212529;
+  background-color: #dae0e5;
+  border-color: #d3d9df;
+}
+.bootstrap-cv-iso .btn-light:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-light:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+.bootstrap-cv-iso .btn-dark:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-dark:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #1d2124;
+  border-color: #171a1d;
+}
+.bootstrap-cv-iso .btn-dark:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-dark:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+.bootstrap-cv-iso .btn-outline-primary:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-outline-primary:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #0ea0ff;
+  border-color: #0ea0ff;
+}
+.bootstrap-cv-iso .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-outline-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(14, 160, 255, 0.5);
+}
+.bootstrap-cv-iso .btn-outline-secondary:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-outline-secondary:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.bootstrap-cv-iso .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-outline-secondary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(109, 118, 126, 0.5);
+}
+.bootstrap-cv-iso .btn-outline-success:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-outline-success:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.bootstrap-cv-iso .btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-outline-success:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+.bootstrap-cv-iso .btn-outline-info:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-outline-info:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #6091ef;
+  border-color: #6091ef;
+}
+.bootstrap-cv-iso .btn-outline-info:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-outline-info:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(96, 145, 239, 0.5);
+}
+.bootstrap-cv-iso .btn-outline-warning:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-outline-warning:not(:disabled):not(.disabled):active {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+.bootstrap-cv-iso .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-outline-warning:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+}
+.bootstrap-cv-iso .btn-outline-danger:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-outline-danger:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.bootstrap-cv-iso .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-outline-danger:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+}
+.bootstrap-cv-iso .btn-outline-light:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-outline-light:not(:disabled):not(.disabled):active {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.bootstrap-cv-iso .btn-outline-light:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-outline-light:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+.bootstrap-cv-iso .btn-outline-dark:not(:disabled):not(.disabled).active,
+.bootstrap-cv-iso .btn-outline-dark:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+.bootstrap-cv-iso .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
+.bootstrap-cv-iso .btn-outline-dark:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+.bootstrap-cv-iso .navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.bootstrap-cv-iso .page-link:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.bootstrap-cv-iso .progress {
+  height: 1rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+.bootstrap-cv-iso .progress,
+.bootstrap-cv-iso .progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+}
+.bootstrap-cv-iso .progress-bar {
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #0ea0ff;
+  transition: width 0.6s ease;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  .bootstrap-cv-iso .progress-bar {
+    transition: none;
+  }
+}
+.bootstrap-cv-iso .close:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.bootstrap-cv-iso .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.bootstrap-cv-iso .text-center {
+  text-align: center !important;
+}
+.bootstrap-cv-iso .text-muted {
+  color: #6c757d !important;
+}
+@media print {
+  .bootstrap-cv-iso *,
+  .bootstrap-cv-iso :after,
+  .bootstrap-cv-iso :before {
+    text-shadow: none!important;
+    box-shadow: none !important;
+  }
+  .bootstrap-cv-iso h2,
+  .bootstrap-cv-iso h3,
+  .bootstrap-cv-iso p {
+    orphans: 3;
+    widows: 3;
+  }
+  .bootstrap-cv-iso h2,
+  .bootstrap-cv-iso h3 {
+    page-break-after: avoid;
+  }
+  @page {
+    size: a3;
+  }
+  .bootstrap-cv-iso .container,
+  .bootstrap-cv-iso body {
+    min-width: 992px !important;
+  }
+}
+.bootstrap-cv-iso .portfolio-block {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.bootstrap-cv-iso .portfolio-block .heading {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.bootstrap-cv-iso .portfolio-block .heading h2 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.bootstrap-cv-iso .portfolio-block.cv {
+  padding-top: 70px;
+}
+.bootstrap-cv-iso .portfolio-block.cv h2 {
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+.bootstrap-cv-iso .portfolio-block.cv h3 {
+  font-size: 1.3rem;
+}
+.bootstrap-cv-iso .portfolio-block.cv .group {
+  max-width: 800px;
+  margin: auto;
+}
+.bootstrap-cv-iso .portfolio-block.cv .group:not(:first-child) {
+  margin-top: 90px;
+}
+.bootstrap-cv-iso .portfolio-block.cv .group .period {
+  font-size: .8rem;
+  float: none;
+  font-weight: 700;
+  margin-top: 4px;
+  color: #6c757d;
+  opacity: 0.8;
+}
+.bootstrap-cv-iso .portfolio-block.cv .group .organization {
+  font-size: .85em;
+  background-color: #0ea0ff;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 2em;
+}
+.bootstrap-cv-iso .portfolio-block.cv .education.group .organization {
+  background-color: #20c997;
+}
+.bootstrap-cv-iso .portfolio-block.cv .group .item {
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #eee;
+}
+.bootstrap-cv-iso .portfolio-block.cv .group .item .row {
+  margin-bottom: 5px;
+}
+.bootstrap-cv-iso .portfolio-block.cv .education h3,
+.bootstrap-cv-iso .portfolio-block.cv .work-experience h3 {
+  font-weight: 700;
+}
+.bootstrap-cv-iso .portfolio-info-card {
+  padding: 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.075);
+  height: 100%;
+}
+.bootstrap-cv-iso .portfolio-info-card h2 {
+  margin-top: 0;
+  margin-bottom: 24px!important;
+  font-size: 1.4rem;
+}
+.bootstrap-cv-iso .portfolio-info-card.skills h3 {
+  margin-top: 25px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.bootstrap-cv-iso .portfolio-info-card.skills .progress {
+  height: 3px;
+}
+.bootstrap-cv-iso .portfolio-info-card.contact-info {
+  font-weight: 300;
+}
+.bootstrap-cv-iso .portfolio-info-card.contact-info .icon {
+  font-size: 1.3em;
+  color: #6091ef;
+  position: relative;
+  bottom: 4px;
+}
+.bootstrap-cv-iso .portfolio-block.cv .hobbies p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+@media (min-width: 768px) {
+  .bootstrap-cv-iso .portfolio-block .heading {
+    margin-bottom: 80px;
+  }
+  .bootstrap-cv-iso .portfolio-block {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .bootstrap-cv-iso .portfolio-block .heading h2 {
+    font-size: 2rem;
+  }
+  .bootstrap-cv-iso .portfolio-block.cv .item {
+    font-weight: 300;
+  }
+  .bootstrap-cv-iso .portfolio-block.cv .group .period {
+    float: right;
+  }
+}
