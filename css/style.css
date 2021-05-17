@@ -7,8 +7,8 @@
 
 body {
   background-color: #f2f2f2;
-  font-family: "Lato";
-  font-weight: 300;
+  font-family: "Raleway";
+  font-weight: 400;
   font-size: 16px;
   color: #555;
   -webkit-font-smoothing: antialiased;
@@ -30,7 +30,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway";
-  font-weight: 300;
+  font-weight: 500;
   color: #333;
 }
 
@@ -192,8 +192,9 @@ SECTION WRAPS
 }
 
 #headerwrap h1 {
-  font-size: 80px;
+  font-size: 3rem;
   color: white;
+  letter-spacing: 250%;
 }
 
 #headerwrap h3 {
@@ -201,7 +202,7 @@ SECTION WRAPS
   color: white;
 }
 
-/* Intnro Wrap */
+/* Intro Wrap */
 
 #intro {
   background: #151E30;
@@ -372,6 +373,11 @@ sm {
   padding: 15px;
   font-weight: 600;
   margin: 15px 0;
+}
+
+.objective{
+  max-width: 800px;
+  margin:0 auto;
 }
 
 

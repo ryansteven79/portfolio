@@ -1,17 +1,4 @@
-.bootstrap-cv-iso {
-  @charset "UTF-8";
-  /*!
- * Bootstrap v4.1.1 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-  @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
-  /*!
- * Pikaday
- * Copyright © 2014 David Bushell | BSD & MIT license | http://dbushell.com/
- */
-}
+
 .bootstrap-cv-iso :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -388,7 +375,7 @@
   text-align: center !important;
 }
 .bootstrap-cv-iso .text-muted {
-  color: #6c757d !important;
+  color: #000 !important;
 }
 @media print {
   .bootstrap-cv-iso *,
@@ -450,7 +437,7 @@
   float: none;
   font-weight: 700;
   margin-top: 4px;
-  color: #6c757d;
+  color: #000;
   opacity: 0.8;
 }
 .bootstrap-cv-iso .portfolio-block.cv .group .organization {
@@ -458,7 +445,7 @@
   background-color: #0ea0ff;
   display: inline-block;
   color: #fff;
-  padding: 2px 8px;
+  padding: 4px 12px;
   border-radius: 2em;
 }
 .bootstrap-cv-iso .portfolio-block.cv .education.group .organization {
@@ -521,7 +508,7 @@
     font-size: 2rem;
   }
   .bootstrap-cv-iso .portfolio-block.cv .item {
-    font-weight: 300;
+    font-weight: 400;
   }
   .bootstrap-cv-iso .portfolio-block.cv .group .period {
     float: right;
